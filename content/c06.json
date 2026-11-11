@@ -1,0 +1,73 @@
+{
+  "id": "c06",
+  "name": "Anatomía de un workflow YAML",
+  "format": "carousel",
+  "tag": "CI/CD",
+  "week": 7,
+  "caption": "Lee cualquier workflow de GitHub Actions 👀\n\nname → cómo se llama\non → cuándo se lanza\njobs → qué trabajos hay\nruns-on → en qué máquina\nsteps → los pasos, en orden\n\nCuándo. Qué. Dónde.\n\n💾 Guárdalo para tu próximo pipeline",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#githubactions",
+    "#cicd",
+    "#devops",
+    "#yaml"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GitHub Actions",
+      "title": "Lee un workflow en 1 minuto"
+    },
+    {
+      "type": "point",
+      "kicker": "El archivo",
+      "title": ".github/workflows/ci.yml",
+      "code": "name: CI\non: push\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: npm ci\n      - run: npm test"
+    },
+    {
+      "type": "point",
+      "kicker": "01 / name",
+      "title": "Cómo se llama",
+      "code": "name: CI",
+      "text": "El nombre que ves en la pestaña Actions."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / on",
+      "title": "Cuándo se lanza",
+      "code": "on: push",
+      "text": "En cada push. También puede ser en cada PR o con horario."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / jobs",
+      "title": "Qué trabajos hay",
+      "code": "jobs:\n  test:",
+      "text": "Cada job es un bloque de trabajo."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / runs-on",
+      "title": "En qué máquina",
+      "code": "runs-on: ubuntu-latest",
+      "text": "El runner: una máquina temporal."
+    },
+    {
+      "type": "point",
+      "kicker": "05 / steps",
+      "title": "Los pasos, en orden",
+      "code": "- run: npm ci\n- run: npm test",
+      "text": "Si uno falla, el job se para."
+    },
+    {
+      "type": "close",
+      "title": "Cuándo. Qué. Dónde.",
+      "text": "Ya sabes leer cualquier workflow.",
+      "cta": "Guárdalo"
+    }
+  ]
+}

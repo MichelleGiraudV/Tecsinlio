@@ -1,0 +1,7 @@
+Glosario Tec Sin Lío: Runner 🏃
+
+La máquina que ejecuta tu pipeline. Se crea, trabaja y desaparece.
+
+💾 Guárdalo
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #cicd #devops

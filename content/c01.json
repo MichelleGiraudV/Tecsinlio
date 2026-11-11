@@ -1,0 +1,98 @@
+{
+  "id": "c01",
+  "name": "Mapa: de tu código a producción",
+  "format": "carousel",
+  "tag": "MAPA",
+  "week": 1,
+  "caption": "¿Cómo llega tu código de tu portátil a internet? 🗺️\n\nCódigo → Git → CI → Docker → Registry → Cloud\n\n6 pasos, y cada uno tendrá su reel en la cuenta.\n\n💾 Guárdalo como mapa\n💬 ¿Qué paso te cuesta más?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#devops",
+    "#cicd",
+    "#docker",
+    "#cloud"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Empieza aquí",
+      "title": "De tu portátil a internet",
+      "box": "6 pasos",
+      "text": "El mapa de todo lo que explicamos en esta cuenta."
+    },
+    {
+      "type": "point",
+      "kicker": "01 / Código",
+      "title": "Lo escribes.",
+      "box": "Tu código",
+      "text": "Todo empieza en tu máquina."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / Git",
+      "title": "Guardas versiones.",
+      "code": "git push",
+      "text": "Lo subes a GitHub para que el equipo lo vea."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / CI",
+      "title": "Se prueba solo.",
+      "box": "build ✓  tests ✓",
+      "text": "Cada push se construye y se prueba automáticamente."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / Docker",
+      "title": "Se empaqueta.",
+      "code": "docker build -t mi-app .",
+      "text": "Tu app y todo lo que necesita, en una imagen."
+    },
+    {
+      "type": "point",
+      "kicker": "05 / Registry",
+      "title": "Se guarda.",
+      "box": "Artifact Registry",
+      "text": "La imagen se sube a un almacén de imágenes."
+    },
+    {
+      "type": "point",
+      "kicker": "06 / Cloud",
+      "title": "Se ejecuta.",
+      "box": "https://mi-app.run.app",
+      "text": "La nube arranca contenedores y te da una URL."
+    },
+    {
+      "type": "flow",
+      "kicker": "Resumen",
+      "title": "Código → producción",
+      "steps": [
+        {
+          "k": "Código"
+        },
+        {
+          "k": "Git"
+        },
+        {
+          "k": "CI"
+        },
+        {
+          "k": "Docker → Registry"
+        },
+        {
+          "k": "Cloud"
+        }
+      ]
+    },
+    {
+      "type": "close",
+      "title": "Cada paso tiene su reel.",
+      "text": "Síguelos en orden en los Destacados.",
+      "cta": "Guárdalo como mapa"
+    }
+  ]
+}

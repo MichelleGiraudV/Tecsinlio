@@ -1,0 +1,13 @@
+Lee cualquier workflow de GitHub Actions 👀
+
+name → cómo se llama
+on → cuándo se lanza
+jobs → qué trabajos hay
+runs-on → en qué máquina
+steps → los pasos, en orden
+
+Cuándo. Qué. Dónde.
+
+💾 Guárdalo para tu próximo pipeline
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #cicd #devops #yaml

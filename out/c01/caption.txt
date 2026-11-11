@@ -1,0 +1,10 @@
+¿Cómo llega tu código de tu portátil a internet? 🗺️
+
+Código → Git → CI → Docker → Registry → Cloud
+
+6 pasos, y cada uno tendrá su reel en la cuenta.
+
+💾 Guárdalo como mapa
+💬 ¿Qué paso te cuesta más?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #devops #cicd #docker #cloud

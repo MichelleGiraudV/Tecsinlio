@@ -1,0 +1,7 @@
+El pipeline completo: del push a una URL pública 🚀
+
+Docker + GitHub Actions + Cloud Run, paso a paso.
+
+💬 ¿Quieres el YAML completo? Comenta PIPELINE
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #cloudrun #googlecloud #docker #cicd

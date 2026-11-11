@@ -1,0 +1,26 @@
+{
+  "id": "e02",
+  "name": "Glosario: Registry",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 3,
+  "caption": "Glosario Tec Sin Lío: Registry 📦\n\nEs donde se guardan tus imágenes de Docker para usarlas desde cualquier sitio.\n\n💾 Guárdalo",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#artifactregistry",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": "Registry",
+      "definition": "Almacén donde se guardan las imágenes de Docker.",
+      "example": "docker push registro/mi-app:1.0"
+    }
+  ]
+}

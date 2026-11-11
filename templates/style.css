@@ -1,0 +1,106 @@
+/* Tec Sin Lío — estilo sacado del reel 02 (Dockerfile) */
+:root {
+  --bg: #0a111f;
+  --card: #142237;
+  --card-2: #1d293f;
+  --card-hi: #244354;
+  --pill: #183147;
+  --cyan: #45dbe4;
+  --cyan-soft: #63d0d2;
+  --text: #ffffff;
+  --muted: #9fb0c8;
+  --line: #26344c;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  font-family: "DejaVu Sans", "Inter", Arial, sans-serif;
+  color: var(--text);
+}
+
+.slide {
+  width: var(--w);
+  height: var(--h);
+  padding: 72px 72px 56px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255,255,255,0.035) 1px, transparent 0) 0 0 / 28px 28px,
+    var(--bg);
+}
+
+/* Cabecera */
+.head { display: flex; justify-content: space-between; align-items: center; }
+.brand { font-weight: 700; font-size: 30px; letter-spacing: 1px; }
+.tag {
+  background: var(--pill); color: var(--cyan);
+  font-weight: 700; font-size: 22px; letter-spacing: 2px;
+  padding: 8px 24px; border-radius: 12px;
+}
+.kicker {
+  margin-top: 44px; color: var(--cyan);
+  font-weight: 700; font-size: 24px; letter-spacing: 1.5px; text-transform: uppercase;
+}
+
+/* Cuerpo */
+.body { flex: 1; padding-bottom: 40px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 44px; }
+.title { font-weight: 700; font-size: 84px; line-height: 1.15; max-width: 940px; overflow-wrap: anywhere; }
+.title.long { font-size: 62px; }
+.title.xl { font-size: 104px; }
+.text { font-size: 42px; line-height: 1.45; color: #e8eef7; max-width: 860px; }
+.text.muted { color: var(--muted); }
+
+.box {
+  border: 3px solid var(--cyan); border-radius: 22px;
+  background: var(--card); padding: 32px 44px;
+  color: var(--cyan); font-weight: 700; font-size: 54px;
+}
+.code {
+  background: var(--card-2); border-radius: 18px;
+  padding: 30px 40px; font-family: "DejaVu Sans Mono", monospace;
+  font-weight: 700; font-size: 46px; color: var(--text);
+  max-width: 920px; white-space: pre-wrap; word-break: break-word; text-align: left;
+}
+.code.block { font-size: 34px; line-height: 1.55; font-weight: 400; }
+.code .k { color: var(--cyan); font-weight: 700; }
+
+/* Lista tipo "FROM / COPY / RUN / CMD" */
+.list {
+  width: 100%; max-width: 900px;
+  border: 3px solid var(--cyan); border-radius: 22px; padding: 22px;
+  display: flex; flex-direction: column; gap: 14px; text-align: left;
+}
+.row { display: flex; align-items: center; gap: 28px; background: var(--card); border-radius: 14px; padding: 22px 26px; }
+.row.hi { background: var(--card-hi); }
+.row .k { color: var(--cyan); font-weight: 700; font-size: 38px; min-width: 150px; font-family: "DejaVu Sans Mono", monospace; }
+.row .k.wide { min-width: 0; }
+.row .v { font-size: 36px; color: #e8eef7; }
+.row.stack { flex-direction: column; align-items: flex-start; gap: 10px; }
+
+/* Flujo vertical de cajas */
+.flow { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.flow .arrow { width: 4px; height: 44px; background: var(--cyan); position: relative; margin: 6px 0 14px; }
+.flow .arrow::after {
+  content: ""; position: absolute; bottom: -12px; left: -8px;
+  border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 14px solid var(--cyan);
+}
+.flow .box { font-size: 42px; padding: 22px 40px; min-width: 520px; }
+.flow .box small { display: block; color: #e8eef7; font-weight: 400; font-size: 26px; margin-top: 6px; }
+
+/* Quiz */
+.options { display: flex; gap: 32px; }
+.opt { border: 3px solid var(--cyan); border-radius: 20px; padding: 28px 56px; font-size: 44px; font-weight: 700; color: var(--cyan); background: var(--card); font-family: "DejaVu Sans Mono", monospace; }
+
+/* CTA */
+.cta { color: var(--cyan); font-weight: 700; font-size: 34px; }
+
+/* Pie */
+.foot { margin-top: 24px; }
+.bar { display: flex; gap: 14px; margin-bottom: 20px; }
+.bar span { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }
+.bar span.on { background: var(--cyan); }
+.foot-row { display: flex; justify-content: space-between; color: var(--muted); font-size: 20px; letter-spacing: 1px; }

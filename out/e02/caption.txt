@@ -1,0 +1,7 @@
+Glosario Tec Sin Lío: Registry 📦
+
+Es donde se guardan tus imágenes de Docker para usarlas desde cualquier sitio.
+
+💾 Guárdalo
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #artifactregistry #devops

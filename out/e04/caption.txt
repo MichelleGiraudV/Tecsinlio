@@ -1,0 +1,9 @@
+Glosario Tec Sin Lío: Pipeline 🔧
+
+Una cadena de pasos automáticos que sigue tu código: build → test → deploy.
+
+Como una cadena de montaje: si un paso falla, se para todo.
+
+💾 Guárdalo
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #cicd #devops #githubactions

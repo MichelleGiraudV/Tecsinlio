@@ -1,0 +1,9 @@
+{
+  "type": "quiz",
+  "question": "¿Qué instrucción dice cómo arranca la app?",
+  "options": [
+    "FROM",
+    "CMD"
+  ],
+  "correct": "CMD"
+}

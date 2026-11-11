@@ -1,0 +1,13 @@
+Docker en 7 comandos 🐳
+
+build → crea la imagen
+run → arranca un contenedor
+ps / images → qué tienes
+logs → qué pasa dentro
+stop / exec → páralo o entra
+
+Con estos te defiendes el 90 % del tiempo.
+
+💾 Guárdalo para tu próxima terminal
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #contenedores #devops

@@ -1,0 +1,26 @@
+{
+  "id": "e03",
+  "name": "git push --force un viernes",
+  "format": "static",
+  "tag": "GIT",
+  "week": 4,
+  "caption": "Regla número 1 del viernes 🙃\n\n--force reescribe la historia remota. Si alguien ya tenía esos commits, se lía.\n\nSi de verdad lo necesitas: --force-with-lease.",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#git",
+    "#humorprogramador",
+    "#github"
+  ],
+  "slides": [
+    {
+      "type": "meme",
+      "top": "git push --force\n(viernes, 18:00)",
+      "punch": "No.",
+      "text": "Y si hace falta: `--force-with-lease`"
+    }
+  ]
+}

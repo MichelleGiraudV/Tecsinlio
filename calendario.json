@@ -1,0 +1,254 @@
+{
+  "zona_horaria": "Europe/Madrid",
+  "como_usar": "Fuente de verdad del calendario. estado: pendiente | programado | publicado | por producir. Cuando programes o publiques algo, cambia su estado.",
+  "publicaciones": [
+    {
+      "fecha": "2026-11-11",
+      "hora": "16:40",
+      "formato": "reel",
+      "estado": "publicado",
+      "id": "r01",
+      "nombre": "Reel 01 · ¿Qué es Docker?",
+      "archivo": "videos/r01-que-es-docker.mp4",
+      "caption": "\"En mi ordenador funciona…\" 😅 ¿Te suena?\n\nDocker empaqueta tu app con todo lo que necesita en una imagen. Al ejecutarla, creas un contenedor.\n\nImagen = plantilla. Contenedor = ejecución.\n\n💾 Guárdalo y sigue la serie\n💬 ¿Usas Docker ya?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #contenedores #devops #cloud",
+      "portada": "portadas/portada-r01.png",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c01",
+      "archivo": "out/c01/",
+      "caption_archivo": "out/c01/caption.txt",
+      "nombre": "Carrusel C01 · Mapa: de tu código a producción",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "pendiente",
+      "id": "r04",
+      "nombre": "Reel 04 · Alerta de seguridad PHP y Node",
+      "archivo": "videos/r04-seguridad-php-node.mp4",
+      "caption": "🚨 Alerta de seguridad: PHP y Node (parches del 21 de octubre de 2026)\n\nPHP2Shell y Node2Shell son fallos distintos: cada uno necesita su parche.\n\n✅ Actualiza el runtime (no basta con npm update)\n✅ Si usas Docker: cambia la imagen base y reconstruye\n✅ Comprueba la versión real en producción\n\nFuentes oficiales: nodejs.org y php.net\n\n🔁 Compártelo con tu equipo\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #seguridad #ciberseguridad #nodejs #php #docker",
+      "portada": "portadas/portada-r04.png",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "pendiente",
+      "id": "r02",
+      "nombre": "Reel 02 · Dockerfile",
+      "archivo": "videos/r02-dockerfile.mp4",
+      "caption": "¿Cómo se crea una imagen de Docker? Con una receta: el Dockerfile 👨‍🍳\n\n1️⃣ FROM → eliges la base\n2️⃣ COPY → copias tus archivos\n3️⃣ RUN → ejecutas lo que hace falta al construir\n4️⃣ CMD → dices cómo arranca la app\n\nLuego: docker build crea la imagen y docker run arranca el contenedor.\n\nReceta → Imagen → Contenedor. Sin lío.\n\n💾 Guárdalo para tu próximo proyecto\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops #desarrolloweb",
+      "portada": "portadas/portada-r02.png",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c02",
+      "archivo": "out/c02/",
+      "caption_archivo": "out/c02/caption.txt",
+      "nombre": "Carrusel C02 · 7 comandos de Docker que usarás siempre",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "11:00",
+      "formato": "story",
+      "estado": "pendiente",
+      "id": "s01",
+      "archivo": "out/s01/",
+      "caption_archivo": "out/s01/caption.txt",
+      "nombre": "Historia S01 · Quiz: ¿FROM o CMD?",
+      "publicar": "manual"
+    },
+    {
+      "fecha": "2026-11-24",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "pendiente",
+      "id": "r03",
+      "nombre": "Reel 03 · CI/CD",
+      "archivo": "videos/r03-ci-cd.mp4",
+      "caption": "Cambias código… ¿y ahora qué? 🤔\n\nCI: cada cambio se construye y se prueba solo.\nCD (entrega): queda listo para desplegar.\nCD (despliegue): sale a producción automáticamente.\n\nCI comprueba. CD lleva más allá.\n\n💾 Guárdalo\n💬 ¿En tu equipo despliegan a mano o automático?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #cicd #devops #githubactions #automatizacion",
+      "portada": "portadas/portada-r03.png",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c06",
+      "archivo": "out/c06/",
+      "caption_archivo": "out/c06/caption.txt",
+      "nombre": "Carrusel C06 · Anatomía de un workflow YAML",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e04",
+      "archivo": "out/e04/",
+      "caption_archivo": "out/e04/caption.txt",
+      "nombre": "Post E04 · Glosario: Pipeline",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: Volúmenes en Docker",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-03",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c03",
+      "archivo": "out/c03/",
+      "caption_archivo": "out/c03/caption.txt",
+      "nombre": "Carrusel C03 · Docker Compose en 6 slides",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-05",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e01",
+      "archivo": "out/e01/",
+      "caption_archivo": "out/e01/caption.txt",
+      "nombre": "Post E01 · En mi máquina funciona",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-08",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: Commit, rama y merge",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-10",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c04",
+      "archivo": "out/c04/",
+      "caption_archivo": "out/c04/caption.txt",
+      "nombre": "Carrusel C04 · Git en 7 comandos",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-12",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e03",
+      "archivo": "out/e03/",
+      "caption_archivo": "out/e03/caption.txt",
+      "nombre": "Post E03 · git push --force un viernes",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-15",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: ¿Qué es una Pull Request?",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-17",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c05",
+      "archivo": "out/c05/",
+      "caption_archivo": "out/c05/caption.txt",
+      "nombre": "Carrusel C05 · Checklist de una buena PR",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-19",
+      "hora": "11:00",
+      "formato": "story",
+      "estado": "pendiente",
+      "id": "s02",
+      "archivo": "out/s02/",
+      "caption_archivo": "out/s02/caption.txt",
+      "nombre": "Historia S02 · Quiz: ¿merge o rebase?",
+      "publicar": "manual"
+    },
+    {
+      "fecha": "2026-12-22",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: GitHub Actions",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-26",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e05",
+      "archivo": "out/e05/",
+      "caption_archivo": "out/e05/caption.txt",
+      "nombre": "Post E05 · Glosario: Runner",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-29",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: Del commit al deploy en Cloud Run",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-12-31",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c07",
+      "archivo": "out/c07/",
+      "caption_archivo": "out/c07/caption.txt",
+      "nombre": "Carrusel C07 · Docker + GitHub Actions + Cloud Run",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-02",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e02",
+      "archivo": "out/e02/",
+      "caption_archivo": "out/e02/caption.txt",
+      "nombre": "Post E02 · Glosario: Registry",
+      "publicar": "auto"
+    }
+  ],
+  "publicacion_automatica": "Las piezas con estado 'pendiente' se publican solas a su hora (11:00, 14:00 o 19:00) vía Windsor, leyendo este archivo desde GitHub. Solo se publica lo que esté subido con git push. Las historias se publican a mano (el quiz no se puede añadir automáticamente)."
+}

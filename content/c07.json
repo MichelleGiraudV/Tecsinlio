@@ -1,0 +1,88 @@
+{
+  "id": "c07",
+  "name": "Docker + GitHub Actions + Cloud Run",
+  "format": "carousel",
+  "tag": "CLOUD",
+  "week": 8,
+  "caption": "El pipeline completo: del push a una URL pública 🚀\n\nDocker + GitHub Actions + Cloud Run, paso a paso.\n\n💬 ¿Quieres el YAML completo? Comenta PIPELINE",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#githubactions",
+    "#cloudrun",
+    "#googlecloud",
+    "#docker",
+    "#cicd"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Pipeline completo",
+      "title": "Del push a una URL pública"
+    },
+    {
+      "type": "point",
+      "kicker": "01 / Repo",
+      "title": "Tienes un Dockerfile.",
+      "box": "Dockerfile",
+      "text": "La receta de tu app vive en el repo."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / Trigger",
+      "title": "Haces push a main.",
+      "code": "on:\n  push:\n    branches: [main]",
+      "text": "Eso lanza el workflow."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / Auth",
+      "title": "Entra en Google Cloud.",
+      "box": "Workload Identity",
+      "text": "Sin claves guardadas en el repo."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / Build",
+      "title": "Construye y sube.",
+      "code": "docker build -t $IMAGE .\ndocker push $IMAGE",
+      "text": "La imagen va a Artifact Registry."
+    },
+    {
+      "type": "point",
+      "kicker": "05 / Deploy",
+      "title": "Despliega.",
+      "code": "gcloud run deploy mi-app \\\n  --image $IMAGE",
+      "text": "Cloud Run la arranca y te da una URL."
+    },
+    {
+      "type": "flow",
+      "kicker": "Resumen",
+      "title": "El pipeline",
+      "steps": [
+        {
+          "k": "git push"
+        },
+        {
+          "k": "GitHub Actions"
+        },
+        {
+          "k": "Artifact Registry"
+        },
+        {
+          "k": "Cloud Run",
+          "v": "URL pública"
+        }
+      ]
+    },
+    {
+      "type": "close",
+      "title": "Push. Build. Deploy.",
+      "text": "Sin tocar nada a mano.",
+      "cta": "Comenta PIPELINE y te paso el YAML"
+    }
+  ]
+}

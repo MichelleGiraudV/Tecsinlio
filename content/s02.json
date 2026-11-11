@@ -1,0 +1,27 @@
+{
+  "id": "s02",
+  "name": "Quiz: ¿merge o rebase?",
+  "format": "story",
+  "tag": "QUIZ",
+  "week": 5,
+  "caption": "(Historia) Añade el sticker de quiz encima de las opciones.",
+  "story_sticker": {
+    "type": "quiz",
+    "question": "Unir tu rama a main sin reescribir historia",
+    "options": [
+      "merge",
+      "rebase"
+    ],
+    "correct": "merge"
+  },
+  "slides": [
+    {
+      "type": "quiz",
+      "question": "Quieres unir tu rama a main sin reescribir la historia",
+      "options": [
+        "merge",
+        "rebase"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "c04",
+  "name": "Git en 7 comandos",
+  "format": "carousel",
+  "tag": "GIT",
+  "week": 4,
+  "caption": "Git básico en 7 comandos 🌿\n\nCon esto sobrevives el 90 % de los días.\n\n💾 Guárdalo\n💬 ¿Cuál te faltaría?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#git",
+    "#github",
+    "#controldeversiones"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Chuleta",
+      "title": "Git básico en 7 comandos"
+    },
+    {
+      "type": "list",
+      "kicker": "Empezar",
+      "title": "Traer y ramificar",
+      "items": [
+        {
+          "k": "git clone",
+          "v": "te traes el repo"
+        },
+        {
+          "k": "git checkout -b",
+          "v": "creas una rama nueva"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "kicker": "Guardar",
+      "title": "Preparar y guardar",
+      "items": [
+        {
+          "k": "git add .",
+          "v": "preparas los cambios"
+        },
+        {
+          "k": "git commit -m",
+          "v": "haces la foto"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "kicker": "Compartir",
+      "title": "Subir y bajar",
+      "items": [
+        {
+          "k": "git push",
+          "v": "subes tus commits"
+        },
+        {
+          "k": "git pull",
+          "v": "te traes lo nuevo"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "kicker": "El salvavidas",
+      "title": "¿Cómo voy?",
+      "code": "git status",
+      "text": "Úsalo cuando no sepas qué está pasando."
+    },
+    {
+      "type": "close",
+      "title": "Clone. Commit. Push.",
+      "text": "Git, sin lío.",
+      "cta": "Guárdalo"
+    }
+  ]
+}

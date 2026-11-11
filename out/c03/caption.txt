@@ -1,0 +1,8 @@
+¿Varios contenedores a la vez? Docker Compose 🧩
+
+Un archivo describe todo tu entorno y un comando lo levanta.
+
+💾 Guárdalo
+💬 ¿Lo usas en tu proyecto?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockercompose #devops

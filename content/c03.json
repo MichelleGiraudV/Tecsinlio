@@ -1,0 +1,80 @@
+{
+  "id": "c03",
+  "name": "Docker Compose en 6 slides",
+  "format": "carousel",
+  "tag": "DOCKER",
+  "week": 3,
+  "caption": "¿Varios contenedores a la vez? Docker Compose 🧩\n\nUn archivo describe todo tu entorno y un comando lo levanta.\n\n💾 Guárdalo\n💬 ¿Lo usas en tu proyecto?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#dockercompose",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Docker Compose",
+      "title": "¿Varios contenedores a la vez?",
+      "box": "Compose"
+    },
+    {
+      "type": "list",
+      "kicker": "01 / El problema",
+      "title": "3 servicios, 3 comandos",
+      "items": [
+        {
+          "k": "web",
+          "v": "tu app"
+        },
+        {
+          "k": "db",
+          "v": "la base de datos"
+        },
+        {
+          "k": "cache",
+          "v": "Redis"
+        }
+      ],
+      "text": "Arrancarlos uno a uno es un lío."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / La solución",
+      "title": "Un archivo para todo",
+      "box": "compose.yaml",
+      "text": "Describes todos los servicios en un solo archivo."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / Ejemplo",
+      "title": "Así se ve",
+      "code": "services:\n  web:\n    build: .\n    ports:\n      - \"3000:3000\"\n  db:\n    image: postgres:16"
+    },
+    {
+      "type": "list",
+      "kicker": "04 / Los comandos",
+      "title": "Un comando lo levanta",
+      "items": [
+        {
+          "k": "up",
+          "v": "`docker compose up` arranca todo"
+        },
+        {
+          "k": "down",
+          "v": "`docker compose down` lo para"
+        }
+      ]
+    },
+    {
+      "type": "close",
+      "title": "Un archivo. Todo tu entorno.",
+      "text": "Docker Compose, sin lío.",
+      "cta": "Guárdalo"
+    }
+  ]
+}

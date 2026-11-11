@@ -1,0 +1,26 @@
+{
+  "id": "e01",
+  "name": "En mi máquina funciona",
+  "format": "static",
+  "tag": "DOCKER",
+  "week": 1,
+  "caption": "La frase más famosa del desarrollo 😅\n\nDocker empaqueta tu app con todo lo que necesita, así funciona igual en cualquier sitio.\n\n🏷️ Etiqueta a quien la dice siempre",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#humorprogramador",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "meme",
+      "top": "\"En mi máquina funciona\"",
+      "punch": "Por eso existe Docker.",
+      "text": "Tu app + todo lo que necesita, en una imagen."
+    }
+  ]
+}

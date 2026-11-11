@@ -1,0 +1,81 @@
+{
+  "id": "c02",
+  "name": "7 comandos de Docker que usarás siempre",
+  "format": "carousel",
+  "tag": "DOCKER",
+  "week": 2,
+  "caption": "Docker en 7 comandos 🐳\n\nbuild → crea la imagen\nrun → arranca un contenedor\nps / images → qué tienes\nlogs → qué pasa dentro\nstop / exec → páralo o entra\n\nCon estos te defiendes el 90 % del tiempo.\n\n💾 Guárdalo para tu próxima terminal",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#contenedores",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Chuleta",
+      "title": "Docker en 7 comandos",
+      "text": "Los que vas a usar todos los días."
+    },
+    {
+      "type": "point",
+      "kicker": "01 / Construir",
+      "title": "Crea la imagen",
+      "code": "docker build -t mi-app .",
+      "text": "Lee el Dockerfile y construye la imagen."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / Arrancar",
+      "title": "Arranca un contenedor",
+      "code": "docker run mi-app",
+      "text": "Crea e inicia un contenedor desde la imagen."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / Ver",
+      "title": "¿Qué está corriendo?",
+      "code": "docker ps",
+      "text": "Lista los contenedores en marcha."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / Imágenes",
+      "title": "¿Qué imágenes tengo?",
+      "code": "docker images",
+      "text": "Lista las imágenes en tu máquina."
+    },
+    {
+      "type": "point",
+      "kicker": "05 / Logs",
+      "title": "¿Qué pasa dentro?",
+      "code": "docker logs <id>",
+      "text": "Muestra lo que imprime tu app."
+    },
+    {
+      "type": "point",
+      "kicker": "06 / Parar",
+      "title": "Páralo",
+      "code": "docker stop <id>",
+      "text": "Detiene el contenedor."
+    },
+    {
+      "type": "point",
+      "kicker": "07 / Entrar",
+      "title": "Entra dentro",
+      "code": "docker exec -it <id> sh",
+      "text": "Abre una terminal dentro del contenedor."
+    },
+    {
+      "type": "close",
+      "title": "Build. Run. Ps. Logs.",
+      "text": "Con esto sobrevives casi todos los días.",
+      "cta": "Guárdalo para tu próxima terminal"
+    }
+  ]
+}

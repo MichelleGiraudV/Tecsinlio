@@ -1,0 +1,16 @@
+{
+  "name": "tec-sin-lio-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Genera carruseles, posts e historias de Tec Sin Lío listos para revisar",
+  "scripts": {
+    "render": "node src/render.js",
+    "generate": "node src/generate.js",
+    "weekly": "node src/generate.js --weekly && node src/render.js",
+    "semana": "node src/semana.js"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "c05",
+  "name": "Checklist de una buena PR",
+  "format": "carousel",
+  "tag": "GIT",
+  "week": 5,
+  "caption": "Tu Pull Request, lista para aprobar ✅\n\n5 cosas que hacen que te la revisen rápido.\n\n💾 Guárdalo antes de tu próxima PR",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#git",
+    "#github",
+    "#pullrequest",
+    "#codereview"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Checklist",
+      "title": "Tu PR, lista para aprobar"
+    },
+    {
+      "type": "point",
+      "kicker": "01",
+      "title": "Pequeña.",
+      "text": "Un cambio, una PR. Cuanto más corta, antes se revisa."
+    },
+    {
+      "type": "point",
+      "kicker": "02",
+      "title": "Título claro.",
+      "text": "Qué hace, no cómo.",
+      "code": "Añade login con Google"
+    },
+    {
+      "type": "point",
+      "kicker": "03",
+      "title": "Descripción útil.",
+      "text": "Por qué lo cambias y cómo probarlo."
+    },
+    {
+      "type": "point",
+      "kicker": "04",
+      "title": "Checks en verde.",
+      "box": "tests ✓  lint ✓  build ✓",
+      "text": "Antes de pedir revisión."
+    },
+    {
+      "type": "point",
+      "kicker": "05",
+      "title": "Responde a todo.",
+      "text": "Cada comentario, una respuesta o un cambio."
+    },
+    {
+      "type": "close",
+      "title": "Pequeña. Clara. En verde.",
+      "cta": "Guárdalo antes de tu próxima PR"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e05",
+  "name": "Glosario: Runner",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 7,
+  "caption": "Glosario Tec Sin Lío: Runner 🏃\n\nLa máquina que ejecuta tu pipeline. Se crea, trabaja y desaparece.\n\n💾 Guárdalo",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#githubactions",
+    "#cicd",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": "Runner",
+      "definition": "La máquina temporal que ejecuta tu pipeline.",
+      "example": "runs-on: ubuntu-latest"
+    }
+  ]
+}

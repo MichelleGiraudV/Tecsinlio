@@ -1,0 +1,7 @@
+Regla número 1 del viernes 🙃
+
+--force reescribe la historia remota. Si alguien ya tenía esos commits, se lía.
+
+Si de verdad lo necesitas: --force-with-lease.
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #git #humorprogramador #github

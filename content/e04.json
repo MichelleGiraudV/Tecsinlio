@@ -1,0 +1,25 @@
+{
+  "id": "e04",
+  "name": "Glosario: Pipeline",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 6,
+  "caption": "Glosario Tec Sin Lío: Pipeline 🔧\n\nUna cadena de pasos automáticos que sigue tu código: build → test → deploy.\n\nComo una cadena de montaje: si un paso falla, se para todo.\n\n💾 Guárdalo",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#cicd",
+    "#devops",
+    "#githubactions"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": "Pipeline",
+      "definition": "Cadena de pasos automáticos: build → test → deploy."
+    }
+  ]
+}
