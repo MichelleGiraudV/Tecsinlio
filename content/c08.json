@@ -1,0 +1,78 @@
+{
+  "id": "c08",
+  "name": "Variables de entorno y archivos .env",
+  "format": "carousel",
+  "tag": "DOCKER",
+  "week": 9,
+  "status": "pendiente",
+  "notes": "Revisado: `node --env-file=.env app.js` existe desde Node 20.6; `docker run --env-file .env` y `-e PORT=3000` son sintaxis válidas; `env_file: .env` es válido en compose.yaml dentro del servicio. Títulos ≤40 y textos ≤90 caracteres. Enlaza con C03 (Compose) y con E06 (.dockerignore).",
+  "caption": "¿Tu contraseña está escrita en el código? 😬\n\nLas variables de entorno sacan la configuración y los secretos fuera del código. El archivo .env las guarda en tu ordenador y Docker se las pasa al contenedor.\n\nRegla de oro: el .env nunca se sube a Git.\n\n💾 Guárdalo\n💬 ¿Alguna vez subiste una clave por error?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#variablesdeentorno",
+    "#devops",
+    "#seguridad"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Variables de entorno",
+      "title": "Tu contraseña no va en el código",
+      "box": ".env",
+      "text": "Así se guardan los secretos y la configuración."
+    },
+    {
+      "type": "point",
+      "kicker": "01 / El problema",
+      "title": "Secretos pegados en el código",
+      "code": "const pass = \"superSecreta123\";",
+      "text": "Si subes eso a GitHub, lo puede ver cualquiera."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / La idea",
+      "title": "Configuración fuera del código",
+      "box": "PORT · DB_PASSWORD",
+      "text": "Un dato que tu app recibe al arrancar, como una nota en la nevera."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / El archivo .env",
+      "title": "Tus variables en un archivo",
+      "code": "PORT=3000\nDB_PASSWORD=superSecreta123",
+      "text": "Una por línea: `NOMBRE=valor`, sin espacios."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / Leerlas",
+      "title": "Tu app las lee así",
+      "code": "# Node.js 20.6 o superior\nnode --env-file=.env app.js",
+      "text": "Y en tu código: `process.env.PORT`"
+    },
+    {
+      "type": "point",
+      "kicker": "05 / Con Docker",
+      "title": "Pásaselas al contenedor",
+      "code": "docker run -e PORT=3000 mi-app\ndocker run --env-file .env mi-app",
+      "text": "En Compose: `env_file: .env` dentro del servicio."
+    },
+    {
+      "type": "point",
+      "kicker": "06 / Regla de oro",
+      "title": "El .env nunca va a Git",
+      "code": "# .gitignore\n.env",
+      "text": "Sube un `.env.example` con los nombres, pero sin valores reales."
+    },
+    {
+      "type": "close",
+      "title": "Secretos fuera, siempre.",
+      "text": "Variables de entorno, sin lío.",
+      "cta": "Guárdalo y compártelo"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "s03",
+  "name": "Quiz: ¿qué puerto abro?",
+  "format": "story",
+  "tag": "QUIZ",
+  "week": 10,
+  "status": "pendiente",
+  "notes": "Revisado: en `-p 8080:3000` el primer número es el puerto de tu ordenador (host) y el segundo el del contenedor, así que se abre localhost:8080. Pregunta ≤90 caracteres.",
+  "caption": "(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: localhost:8080 (en -p, primero va tu ordenador y luego el contenedor).",
+  "story_sticker": {
+    "type": "quiz",
+    "question": "docker run -p 8080:3000 → ¿qué abres?",
+    "options": [
+      "localhost:8080",
+      "localhost:3000"
+    ],
+    "correct": "localhost:8080"
+  },
+  "slides": [
+    {
+      "type": "quiz",
+      "question": "Tu contenedor usa `-p 8080:3000`. ¿Qué abres en el navegador?",
+      "options": [
+        "localhost:8080",
+        "localhost:3000"
+      ]
+    }
+  ]
+}

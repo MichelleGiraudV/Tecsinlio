@@ -1,0 +1,9 @@
+{
+  "type": "quiz",
+  "question": "¿Dónde va la contraseña del deploy?",
+  "options": [
+    "En el YAML",
+    "En Secrets"
+  ],
+  "correct": "En Secrets"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "e07",
+  "name": "Glosario: git stash",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 10,
+  "status": "pendiente",
+  "notes": "Revisado: `git stash` guarda los cambios sin commitear y deja la rama limpia; `git stash list` los muestra; `git stash pop` los recupera y los quita de la lista. Por defecto no guarda archivos nuevos (sin seguimiento): para eso `git stash -u` (lo explica el caption). Definición ≤90 caracteres. Enlaza con C04 (Git en 7 comandos).",
+  "caption": "Glosario Tec Sin Lío: git stash 🗄️\n\nUn cajón donde guardas tus cambios a medio hacer para cambiar de rama sin perder nada.\n\nOjo: los archivos nuevos solo se guardan con `git stash -u`.\n\n💾 Guárdalo\n💬 ¿Lo has usado alguna vez?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#git",
+    "#github",
+    "#controldeversiones",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": "git stash",
+      "definition": "Guarda tus cambios a medio hacer en un cajón y deja tu rama limpia.",
+      "example": "git stash        # guardar\ngit stash list   # ver el cajón\ngit stash pop    # recuperar"
+    }
+  ]
+}

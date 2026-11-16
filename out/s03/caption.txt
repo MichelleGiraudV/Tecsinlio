@@ -1,0 +1,1 @@
+(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: localhost:8080 (en -p, primero va tu ordenador y luego el contenedor).

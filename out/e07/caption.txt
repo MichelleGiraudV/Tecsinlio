@@ -1,0 +1,10 @@
+Glosario Tec Sin Lío: git stash 🗄️
+
+Un cajón donde guardas tus cambios a medio hacer para cambiar de rama sin perder nada.
+
+Ojo: los archivos nuevos solo se guardan con `git stash -u`.
+
+💾 Guárdalo
+💬 ¿Lo has usado alguna vez?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #git #github #controldeversiones #devops

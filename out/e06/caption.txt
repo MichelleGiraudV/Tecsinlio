@@ -1,0 +1,8 @@
+Glosario Tec Sin Lío: .dockerignore 🚫
+
+La lista de archivos que Docker NO copia al construir tu imagen. Menos archivos = build más rápido y sin secretos dentro.
+
+💾 Guárdalo
+💬 ¿Ya tienes uno en tu proyecto?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops

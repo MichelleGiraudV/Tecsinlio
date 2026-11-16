@@ -1,0 +1,10 @@
+¿Tu contraseña está escrita en el código? 😬
+
+Las variables de entorno sacan la configuración y los secretos fuera del código. El archivo .env las guarda en tu ordenador y Docker se las pasa al contenedor.
+
+Regla de oro: el .env nunca se sube a Git.
+
+💾 Guárdalo
+💬 ¿Alguna vez subiste una clave por error?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #variablesdeentorno #devops #seguridad

@@ -1,0 +1,9 @@
+{
+  "type": "quiz",
+  "question": "docker run -p 8080:3000 → ¿qué abres?",
+  "options": [
+    "localhost:8080",
+    "localhost:3000"
+  ],
+  "correct": "localhost:8080"
+}

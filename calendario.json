@@ -248,6 +248,90 @@
       "caption_archivo": "out/e02/caption.txt",
       "nombre": "Post E02 · Glosario: Registry",
       "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-05",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: ¿Qué es serverless?",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-07",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c08",
+      "nombre": "Carrusel C08 · Variables de entorno y archivos .env",
+      "archivo": "out/c08/",
+      "caption_archivo": "out/c08/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-09",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e06",
+      "nombre": "Post E06 · Glosario: .dockerignore",
+      "archivo": "out/e06/",
+      "caption_archivo": "out/e06/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-12",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "por producir",
+      "id": null,
+      "nombre": "POR PRODUCIR: ¿Qué es una API REST?",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-16",
+      "hora": "11:00",
+      "formato": "story",
+      "estado": "pendiente",
+      "id": "s03",
+      "nombre": "Historia S03 · Quiz: ¿qué puerto abro?",
+      "archivo": "out/s03/",
+      "caption_archivo": "out/s03/caption.txt",
+      "publicar": "manual"
+    },
+    {
+      "fecha": "2027-01-14",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c09",
+      "nombre": "Carrusel C09 · Multi-stage builds en Docker",
+      "archivo": "out/c09/",
+      "caption_archivo": "out/c09/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-23",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e07",
+      "nombre": "Post E07 · Glosario: git stash",
+      "archivo": "out/e07/",
+      "caption_archivo": "out/e07/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-30",
+      "hora": "11:00",
+      "formato": "story",
+      "estado": "pendiente",
+      "id": "s04",
+      "nombre": "Historia S04 · Quiz: ¿YAML o Secrets?",
+      "archivo": "out/s04/",
+      "caption_archivo": "out/s04/caption.txt",
+      "publicar": "manual"
     }
   ],
   "publicacion_automatica": "Las piezas con estado 'pendiente' se publican solas a su hora (11:00, 14:00 o 19:00) vía Windsor, leyendo este archivo desde GitHub. Solo se publica lo que esté subido con git push. Las historias se publican a mano (el quiz no se puede añadir automáticamente)."

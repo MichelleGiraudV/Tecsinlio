@@ -1,0 +1,29 @@
+{
+  "id": "s04",
+  "name": "Quiz: ¿YAML o Secrets?",
+  "format": "story",
+  "tag": "QUIZ",
+  "week": 11,
+  "status": "pendiente",
+  "notes": "Revisado: los secretos de GitHub Actions se crean en Settings → Secrets and variables → Actions y se leen en el workflow con `${{ secrets.NOMBRE }}`; GitHub los oculta (***) en los logs. Escribir la contraseña en el YAML la deja visible en el repo. Pregunta ≤90 caracteres. Enlaza con C06 (workflow YAML) y C08 (.env).",
+  "caption": "(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: en Secrets (Settings → Secrets and variables → Actions). En el YAML se lee con ${{ secrets.NOMBRE }} y nunca se escribe el valor.",
+  "story_sticker": {
+    "type": "quiz",
+    "question": "¿Dónde va la contraseña del deploy?",
+    "options": [
+      "En el YAML",
+      "En Secrets"
+    ],
+    "correct": "En Secrets"
+  },
+  "slides": [
+    {
+      "type": "quiz",
+      "question": "Tu workflow de GitHub Actions necesita una contraseña. ¿Dónde la guardas?",
+      "options": [
+        "En el YAML",
+        "En Secrets"
+      ]
+    }
+  ]
+}

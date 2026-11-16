@@ -1,0 +1,10 @@
+¿Tu imagen de Docker pesa más de 1 GB? 🐘
+
+Con un multi-stage build construyes tu app en una etapa y te quedas solo con el resultado en otra.
+
+Menos peso, menos riesgos y deploys más rápidos.
+
+💾 Guárdalo para tu próximo Dockerfile
+💬 ¿Cuánto pesa tu imagen ahora?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops #contenedores

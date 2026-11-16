@@ -1,0 +1,90 @@
+{
+  "id": "c09",
+  "name": "Multi-stage builds en Docker",
+  "format": "carousel",
+  "tag": "DOCKER",
+  "week": 10,
+  "status": "pendiente",
+  "notes": "Revisado: `FROM ... AS build` y `COPY --from=build` son sintaxis válidas de Dockerfile (multi-stage, Docker 17.05+). Ejemplo pensado para una web front-end que compila a /app/dist (p. ej. Vite); /usr/share/nginx/html es la carpeta que sirve nginx:alpine. `npm ci` necesita package-lock.json. node:24 es la LTS activa. `docker images mi-web` muestra la columna SIZE. Títulos ≤40 y textos ≤90 caracteres. Enlaza con Reel 02 (Dockerfile) y E06 (.dockerignore).",
+  "caption": "¿Tu imagen de Docker pesa más de 1 GB? 🐘\n\nCon un multi-stage build construyes tu app en una etapa y te quedas solo con el resultado en otra.\n\nMenos peso, menos riesgos y deploys más rápidos.\n\n💾 Guárdalo para tu próximo Dockerfile\n💬 ¿Cuánto pesa tu imagen ahora?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#dockerfile",
+    "#devops",
+    "#contenedores"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Multi-stage builds",
+      "title": "Imágenes Docker más ligeras",
+      "box": "FROM … AS build",
+      "text": "Construye en una etapa y ejecuta en otra."
+    },
+    {
+      "type": "point",
+      "kicker": "01 / El problema",
+      "title": "Tu imagen pesa demasiado",
+      "box": "1 GB 😱",
+      "text": "Lleva herramientas que solo hacían falta para construir la app."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / La idea",
+      "title": "Dos etapas, una imagen final",
+      "box": "build → final",
+      "text": "Como cocinar en la cocina y llevar a la mesa solo el plato."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / Etapa 1",
+      "title": "Construye con todo",
+      "code": "FROM node:24 AS build\nWORKDIR /app\nCOPY . .\nRUN npm ci && npm run build",
+      "text": "`AS build` le pone nombre a esta etapa."
+    },
+    {
+      "type": "point",
+      "kicker": "04 / Etapa 2",
+      "title": "Copia solo el resultado",
+      "code": "FROM nginx:alpine\nCOPY --from=build /app/dist \\\n  /usr/share/nginx/html",
+      "text": "`--from=build` coge archivos de la etapa anterior."
+    },
+    {
+      "type": "list",
+      "kicker": "05 / Qué ganas",
+      "title": "Lo que ganas",
+      "items": [
+        {
+          "k": "peso",
+          "v": "imagen final mucho más pequeña"
+        },
+        {
+          "k": "riesgo",
+          "v": "menos cosas que atacar dentro"
+        },
+        {
+          "k": "velocidad",
+          "v": "subes y despliegas antes"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "kicker": "06 / Pruébalo",
+      "title": "Se construye igual que siempre",
+      "code": "docker build -t mi-web .\ndocker images mi-web",
+      "text": "Mira la columna SIZE: solo pesa la última etapa."
+    },
+    {
+      "type": "close",
+      "title": "Construye, copia, sirve.",
+      "text": "Multi-stage builds, sin lío.",
+      "cta": "Guárdalo y compártelo"
+    }
+  ]
+}

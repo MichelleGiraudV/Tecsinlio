@@ -12,14 +12,16 @@ button{background:#45dbe4;color:#0a111f;border:0;border-radius:8px;padding:8px 1
 summary{cursor:pointer;margin:8px 0} .note{color:#9fb0c8;font-size:13px}
 </style></head><body>
 <h1>Tec Sin Lío · Contenido para revisar</h1>
-<p class="sub">14 piezas · generado 11/11/2026, 15:54:04</p>
+<p class="sub">20 piezas · generado 16/11/2026, 10:41:28</p>
 
   <article>
     <header><b>C01</b> · carousel · MAPA · semana 1<h2>Mapa: de tu código a producción</h2></header>
     <div class="strip"><img loading="lazy" src="c01/01.png" class="carousel"><img loading="lazy" src="c01/02.png" class="carousel"><img loading="lazy" src="c01/03.png" class="carousel"><img loading="lazy" src="c01/04.png" class="carousel"><img loading="lazy" src="c01/05.png" class="carousel"><img loading="lazy" src="c01/06.png" class="carousel"><img loading="lazy" src="c01/07.png" class="carousel"><img loading="lazy" src="c01/08.png" class="carousel"><img loading="lazy" src="c01/09.png" class="carousel"></div>
     <details open><summary>Caption</summary><pre>¿Cómo llega tu código de tu portátil a internet? 🗺️
 
-6 pasos, y cada uno tiene su reel en la cuenta.
+Código → Git → CI → Docker → Registry → Cloud
+
+6 pasos, y cada uno tendrá su reel en la cuenta.
 
 💾 Guárdalo como mapa
 💬 ¿Qué paso te cuesta más?
@@ -34,6 +36,12 @@ summary{cursor:pointer;margin:8px 0} .note{color:#9fb0c8;font-size:13px}
     <header><b>C02</b> · carousel · DOCKER · semana 2<h2>7 comandos de Docker que usarás siempre</h2></header>
     <div class="strip"><img loading="lazy" src="c02/01.png" class="carousel"><img loading="lazy" src="c02/02.png" class="carousel"><img loading="lazy" src="c02/03.png" class="carousel"><img loading="lazy" src="c02/04.png" class="carousel"><img loading="lazy" src="c02/05.png" class="carousel"><img loading="lazy" src="c02/06.png" class="carousel"><img loading="lazy" src="c02/07.png" class="carousel"><img loading="lazy" src="c02/08.png" class="carousel"><img loading="lazy" src="c02/09.png" class="carousel"></div>
     <details open><summary>Caption</summary><pre>Docker en 7 comandos 🐳
+
+build → crea la imagen
+run → arranca un contenedor
+ps / images → qué tienes
+logs → qué pasa dentro
+stop / exec → páralo o entra
 
 Con estos te defiendes el 90 % del tiempo.
 
@@ -97,9 +105,15 @@ Con esto sobrevives el 90 % de los días.
     <div class="strip"><img loading="lazy" src="c06/01.png" class="carousel"><img loading="lazy" src="c06/02.png" class="carousel"><img loading="lazy" src="c06/03.png" class="carousel"><img loading="lazy" src="c06/04.png" class="carousel"><img loading="lazy" src="c06/05.png" class="carousel"><img loading="lazy" src="c06/06.png" class="carousel"><img loading="lazy" src="c06/07.png" class="carousel"><img loading="lazy" src="c06/08.png" class="carousel"></div>
     <details open><summary>Caption</summary><pre>Lee cualquier workflow de GitHub Actions 👀
 
-5 claves y ya entiendes el YAML.
+name → cómo se llama
+on → cuándo se lanza
+jobs → qué trabajos hay
+runs-on → en qué máquina
+steps → los pasos, en orden
 
-💾 Guárdalo
+Cuándo. Qué. Dónde.
+
+💾 Guárdalo para tu próximo pipeline
 
 #tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #cicd #devops #yaml
 </pre>
@@ -121,6 +135,42 @@ Docker + GitHub Actions + Cloud Run, paso a paso.
       <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
     
     
+  </article>
+  <article>
+    <header><b>C08</b> · carousel · DOCKER · semana 9<h2>Variables de entorno y archivos .env</h2></header>
+    <div class="strip"><img loading="lazy" src="c08/01.png" class="carousel"><img loading="lazy" src="c08/02.png" class="carousel"><img loading="lazy" src="c08/03.png" class="carousel"><img loading="lazy" src="c08/04.png" class="carousel"><img loading="lazy" src="c08/05.png" class="carousel"><img loading="lazy" src="c08/06.png" class="carousel"><img loading="lazy" src="c08/07.png" class="carousel"><img loading="lazy" src="c08/08.png" class="carousel"></div>
+    <details open><summary>Caption</summary><pre>¿Tu contraseña está escrita en el código? 😬
+
+Las variables de entorno sacan la configuración y los secretos fuera del código. El archivo .env las guarda en tu ordenador y Docker se las pasa al contenedor.
+
+Regla de oro: el .env nunca se sube a Git.
+
+💾 Guárdalo
+💬 ¿Alguna vez subiste una clave por error?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #variablesdeentorno #devops #seguridad
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    
+    <p class="note">Nota: Revisado: `node --env-file=.env app.js` existe desde Node 20.6; `docker run --env-file .env` y `-e PORT=3000` son sintaxis válidas; `env_file: .env` es válido en compose.yaml dentro del servicio. Títulos ≤40 y textos ≤90 caracteres. Enlaza con C03 (Compose) y con E06 (.dockerignore).</p>
+  </article>
+  <article>
+    <header><b>C09</b> · carousel · DOCKER · semana 10<h2>Multi-stage builds en Docker</h2></header>
+    <div class="strip"><img loading="lazy" src="c09/01.png" class="carousel"><img loading="lazy" src="c09/02.png" class="carousel"><img loading="lazy" src="c09/03.png" class="carousel"><img loading="lazy" src="c09/04.png" class="carousel"><img loading="lazy" src="c09/05.png" class="carousel"><img loading="lazy" src="c09/06.png" class="carousel"><img loading="lazy" src="c09/07.png" class="carousel"><img loading="lazy" src="c09/08.png" class="carousel"></div>
+    <details open><summary>Caption</summary><pre>¿Tu imagen de Docker pesa más de 1 GB? 🐘
+
+Con un multi-stage build construyes tu app en una etapa y te quedas solo con el resultado en otra.
+
+Menos peso, menos riesgos y deploys más rápidos.
+
+💾 Guárdalo para tu próximo Dockerfile
+💬 ¿Cuánto pesa tu imagen ahora?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops #contenedores
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    
+    <p class="note">Nota: Revisado: `FROM ... AS build` y `COPY --from=build` son sintaxis válidas de Dockerfile (multi-stage, Docker 17.05+). Ejemplo pensado para una web front-end que compila a /app/dist (p. ej. Vite); /usr/share/nginx/html es la carpeta que sirve nginx:alpine. `npm ci` necesita package-lock.json. node:24 es la LTS activa. `docker images mi-web` muestra la columna SIZE. Títulos ≤40 y textos ≤90 caracteres. Enlaza con Reel 02 (Dockerfile) y E06 (.dockerignore).</p>
   </article>
   <article>
     <header><b>E01</b> · static · DOCKER · semana 1<h2>En mi máquina funciona</h2></header>
@@ -172,7 +222,9 @@ Si de verdad lo necesitas: --force-with-lease.
     <div class="strip"><img loading="lazy" src="e04/01.png" class="static"></div>
     <details open><summary>Caption</summary><pre>Glosario Tec Sin Lío: Pipeline 🔧
 
-La cadena de montaje de tu código.
+Una cadena de pasos automáticos que sigue tu código: build → test → deploy.
+
+Como una cadena de montaje: si un paso falla, se para todo.
 
 💾 Guárdalo
 
@@ -198,6 +250,40 @@ La máquina que ejecuta tu pipeline. Se crea, trabaja y desaparece.
     
   </article>
   <article>
+    <header><b>E06</b> · static · GLOSARIO · semana 9<h2>Glosario: .dockerignore</h2></header>
+    <div class="strip"><img loading="lazy" src="e06/01.png" class="static"></div>
+    <details open><summary>Caption</summary><pre>Glosario Tec Sin Lío: .dockerignore 🚫
+
+La lista de archivos que Docker NO copia al construir tu imagen. Menos archivos = build más rápido y sin secretos dentro.
+
+💾 Guárdalo
+💬 ¿Ya tienes uno en tu proyecto?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    
+    <p class="note">Nota: Revisado: .dockerignore va en la raíz del contexto de build y excluye archivos del contexto que se envía a Docker (build más rápido, imagen más ligera, no se cuela el .env). Las 3 líneas del ejemplo son patrones válidos. Enlaza con C08 (.env).</p>
+  </article>
+  <article>
+    <header><b>E07</b> · static · GLOSARIO · semana 10<h2>Glosario: git stash</h2></header>
+    <div class="strip"><img loading="lazy" src="e07/01.png" class="static"></div>
+    <details open><summary>Caption</summary><pre>Glosario Tec Sin Lío: git stash 🗄️
+
+Un cajón donde guardas tus cambios a medio hacer para cambiar de rama sin perder nada.
+
+Ojo: los archivos nuevos solo se guardan con `git stash -u`.
+
+💾 Guárdalo
+💬 ¿Lo has usado alguna vez?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #git #github #controldeversiones #devops
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    
+    <p class="note">Nota: Revisado: `git stash` guarda los cambios sin commitear y deja la rama limpia; `git stash list` los muestra; `git stash pop` los recupera y los quita de la lista. Por defecto no guarda archivos nuevos (sin seguimiento): para eso `git stash -u` (lo explica el caption). Definición ≤90 caracteres. Enlaza con C04 (Git en 7 comandos).</p>
+  </article>
+  <article>
     <header><b>S01</b> · story · QUIZ · semana 2<h2>Quiz: ¿FROM o CMD?</h2></header>
     <div class="strip"><img loading="lazy" src="s01/01.png" class="story"></div>
     <details open><summary>Caption</summary><pre>(Historia) Añade el sticker de quiz encima de las opciones.
@@ -214,5 +300,23 @@ La máquina que ejecuta tu pipeline. Se crea, trabaja y desaparece.
       <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
     <p class="note">Sticker: {"type":"quiz","question":"Unir tu rama a main sin reescribir historia","options":["merge","rebase"],"correct":"merge"}</p>
     
+  </article>
+  <article>
+    <header><b>S03</b> · story · QUIZ · semana 10<h2>Quiz: ¿qué puerto abro?</h2></header>
+    <div class="strip"><img loading="lazy" src="s03/01.png" class="story"></div>
+    <details open><summary>Caption</summary><pre>(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: localhost:8080 (en -p, primero va tu ordenador y luego el contenedor).
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    <p class="note">Sticker: {"type":"quiz","question":"docker run -p 8080:3000 → ¿qué abres?","options":["localhost:8080","localhost:3000"],"correct":"localhost:8080"}</p>
+    <p class="note">Nota: Revisado: en `-p 8080:3000` el primer número es el puerto de tu ordenador (host) y el segundo el del contenedor, así que se abre localhost:8080. Pregunta ≤90 caracteres.</p>
+  </article>
+  <article>
+    <header><b>S04</b> · story · QUIZ · semana 11<h2>Quiz: ¿YAML o Secrets?</h2></header>
+    <div class="strip"><img loading="lazy" src="s04/01.png" class="story"></div>
+    <details open><summary>Caption</summary><pre>(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: en Secrets (Settings → Secrets and variables → Actions). En el YAML se lee con ${{ secrets.NOMBRE }} y nunca se escribe el valor.
+</pre>
+      <button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado ✔'">Copiar caption</button></details>
+    <p class="note">Sticker: {"type":"quiz","question":"¿Dónde va la contraseña del deploy?","options":["En el YAML","En Secrets"],"correct":"En Secrets"}</p>
+    <p class="note">Nota: Revisado: los secretos de GitHub Actions se crean en Settings → Secrets and variables → Actions y se leen en el workflow con `${{ secrets.NOMBRE }}`; GitHub los oculta (***) en los logs. Escribir la contraseña en el YAML la deja visible en el repo. Pregunta ≤90 caracteres. Enlaza con C06 (workflow YAML) y C08 (.env).</p>
   </article>
 </body></html>

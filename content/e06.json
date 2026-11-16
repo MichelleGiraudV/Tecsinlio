@@ -1,0 +1,28 @@
+{
+  "id": "e06",
+  "name": "Glosario: .dockerignore",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 9,
+  "status": "pendiente",
+  "notes": "Revisado: .dockerignore va en la raíz del contexto de build y excluye archivos del contexto que se envía a Docker (build más rápido, imagen más ligera, no se cuela el .env). Las 3 líneas del ejemplo son patrones válidos. Enlaza con C08 (.env).",
+  "caption": "Glosario Tec Sin Lío: .dockerignore 🚫\n\nLa lista de archivos que Docker NO copia al construir tu imagen. Menos archivos = build más rápido y sin secretos dentro.\n\n💾 Guárdalo\n💬 ¿Ya tienes uno en tu proyecto?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#docker",
+    "#dockerfile",
+    "#devops"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": ".dockerignore",
+      "definition": "La lista de archivos que Docker no copia al construir tu imagen.",
+      "example": "node_modules\n.git\n.env"
+    }
+  ]
+}
