@@ -15,21 +15,10 @@
       "publicar": "auto"
     },
     {
-      "fecha": "2026-11-13",
-      "hora": "14:00",
-      "formato": "carousel",
-      "estado": "pendiente",
-      "id": "c01",
-      "archivo": "out/c01/",
-      "caption_archivo": "out/c01/caption.txt",
-      "nombre": "Carrusel C01 · Mapa: de tu código a producción",
-      "publicar": "auto"
-    },
-    {
       "fecha": "2026-11-14",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "pendiente",
+      "estado": "publicado",
       "id": "r04",
       "nombre": "Reel 04 · Alerta de seguridad PHP y Node",
       "archivo": "videos/r04-seguridad-php-node.mp4",
@@ -47,6 +36,17 @@
       "archivo": "videos/r02-dockerfile.mp4",
       "caption": "¿Cómo se crea una imagen de Docker? Con una receta: el Dockerfile 👨‍🍳\n\n1️⃣ FROM → eliges la base\n2️⃣ COPY → copias tus archivos\n3️⃣ RUN → ejecutas lo que hace falta al construir\n4️⃣ CMD → dices cómo arranca la app\n\nLuego: docker build crea la imagen y docker run arranca el contenedor.\n\nReceta → Imagen → Contenedor. Sin lío.\n\n💾 Guárdalo para tu próximo proyecto\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops #desarrolloweb",
       "portada": "portadas/portada-r02.png",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2026-11-18",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c01",
+      "archivo": "out/c01/",
+      "caption_archivo": "out/c01/caption.txt",
+      "nombre": "Carrusel C01 · Mapa: de tu código a producción",
       "publicar": "auto"
     },
     {
