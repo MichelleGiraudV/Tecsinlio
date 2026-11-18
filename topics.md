@@ -1,5 +1,14 @@
 # Ideas de temas (el modo --weekly las prioriza)
 
+## Prioridad 1 (van primero)
+- npm run build vs npm run dev
+- MCP vs API
+- Kubernetes (muy for dummies)
+- WebSockets
+- API vs SDK
+- NotebookLM
+
+## Pendientes
 - Variables de entorno y archivos .env (hecho: c08)
 - .dockerignore: qué es y por qué acelera el build (hecho: e06)
 - Puertos en Docker: -p 3000:3000 (hecho: s03)
