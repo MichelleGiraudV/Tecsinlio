@@ -1,0 +1,6 @@
+Commit, rama, merge… Si Git te suena a chino, en treinta segundos lo entiendes.
+Un commit es como guardar la partida: una foto de tu código en ese momento, con un mensaje.
+Una rama es un camino paralelo: pruebas cosas sin tocar el código principal.
+Cuando tu cambio funciona, haces merge: juntas tu rama con la principal.
+En la terminal: git switch crea tu rama, git commit guarda, y git merge la junta con main.
+Commit guarda, rama separa, merge junta. Guárdalo y sígueme para más tec sin lío.

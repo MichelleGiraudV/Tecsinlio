@@ -1,0 +1,6 @@
+npm run dev, npm run build… Están en todos los proyectos. ¿Cuál uso y cuándo?
+npm run dev es la cocina de prueba: levanta un servidor en tu ordenador y, cada vez que guardas, ves el cambio al momento.
+npm run build es el plato empaquetado: optimiza tu código y genera una carpeta lista para producción. No arranca nada, solo prepara.
+¿De dónde salen? De package.json. npm run y el nombre ejecuta ese script. Aquí, con Vite: dev, build y preview.
+El flujo: programas con dev, empaquetas con build y publicas lo que sale del build. En producción, nunca dev.
+dev para programar, build para publicar. Guárdalo y sígueme para más tec sin lío.

@@ -1,4 +1,4 @@
-# Reel · Volúmenes en Docker (martes 1/12 · 19:00)
+# Reel 06 · Volúmenes en Docker (hecho: r06, voz Kokoro ef_dora)
 
 Duración objetivo: 30-40 s · Tag: DOCKER · Enlaza con Reel 01 (¿Qué es Docker?) y Reel 02 (Dockerfile).
 

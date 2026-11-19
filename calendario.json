@@ -109,10 +109,13 @@
       "fecha": "2026-12-01",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: Volúmenes en Docker",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r06",
+      "nombre": "Reel 06 · Volúmenes en Docker",
+      "publicar": "auto",
+      "archivo": "videos/r06-volumenes-docker.mp4",
+      "caption": "Borras el contenedor y… ¿adiós datos? 😱\n\nUn volumen es un disco externo para tu contenedor: los datos viven fuera y sobreviven aunque lo borres.\n\ndocker run -v datos:/ruta → y listo.\n\n💾 Guárdalo\n💬 ¿Ya usas volúmenes?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #volumenes #devops #basesdedatos",
+      "portada": "portadas/portada-r06.png"
     },
     {
       "fecha": "2026-12-03",
@@ -332,6 +335,18 @@
       "archivo": "out/s04/",
       "caption_archivo": "out/s04/caption.txt",
       "publicar": "manual"
+    },
+    {
+      "fecha": "2027-01-19",
+      "hora": "19:00",
+      "formato": "reel",
+      "estado": "pendiente",
+      "id": "r05",
+      "nombre": "Reel 05 · npm run dev vs npm run build",
+      "archivo": "videos/r05-npm-dev-vs-build.mp4",
+      "caption": "¿npm run dev o npm run build? 🤔\n\ndev = cocina de prueba: servidor local y cambios al instante mientras programas.\nbuild = plato empaquetado: código optimizado en una carpeta lista para producción.\n\nAmbos salen de \"scripts\" en tu package.json.\n\n💾 Guárdalo\n💬 ¿Alguna vez subiste el modo dev a producción?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #npm #nodejs #javascript #desarrolloweb",
+      "portada": "portadas/portada-r05.png",
+      "publicar": "auto"
     }
   ],
   "publicacion_automatica": "Las piezas con estado 'pendiente' se publican solas a su hora (11:00, 14:00 o 19:00) vía Windsor, leyendo este archivo desde GitHub. Solo se publica lo que esté subido con git push. Las historias se publican a mano (el quiz no se puede añadir automáticamente)."

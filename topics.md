@@ -1,12 +1,12 @@
 # Ideas de temas (el modo --weekly las prioriza)
 
 ## Prioridad 1 (van primero)
-- npm run build vs npm run dev
-- MCP vs API
-- Kubernetes (muy for dummies)
-- WebSockets
-- API vs SDK
-- NotebookLM
+- npm run build vs npm run dev — reel — "dev = cocina de prueba, build = plato empaquetado para servir" (hecho: r05)
+- MCP vs API — carrusel — "API = un enchufe; MCP = un enchufe universal para que la IA use herramientas"
+- Kubernetes (muy for dummies) — reel — "Docker = un contenedor; Kubernetes = el capitán del puerto que los organiza"
+- WebSockets — carrusel — "HTTP = mandar cartas; WebSocket = llamada telefónica abierta"
+- API vs SDK — estático — "API = el menú; SDK = el kit con utensilios para pedir más fácil"
+- NotebookLM — reel — "tu cuaderno con IA que solo responde con TUS documentos"
 
 ## Pendientes
 - Variables de entorno y archivos .env (hecho: c08)

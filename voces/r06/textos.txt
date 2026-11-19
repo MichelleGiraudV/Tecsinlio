@@ -1,0 +1,6 @@
+Borras un contenedor y, ¡puf!, tus datos desaparecen. ¿Te ha pasado?
+Un contenedor está pensado para borrarse y volver a crearse. Lo que guarda dentro, se va con él.
+Un volumen es como un disco duro externo: lo conectas al contenedor y los datos viven fuera.
+Con guion uve le dices: guarda esta carpeta del contenedor en un volumen llamado datos.
+Borras el contenedor, lo vuelves a crear con el mismo volumen… y tus datos siguen ahí. Con docker volume ls ves tus volúmenes.
+El contenedor se va, los datos se quedan. Guárdalo y sígueme para más tec sin lío.

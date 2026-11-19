@@ -49,3 +49,11 @@ Si algo queda dudoso, escríbelo en "notes" empezando por "⚠️".
 - calendario.json es la fuente de verdad. Ritmo: martes 19:00 reel, jueves 14:00 carrusel, sábado 11:00 estático o historia.
 - Las piezas nuevas se añaden en el siguiente hueco libre de su formato, después de la última fecha.
 - Los huecos "por producir" son reels que Miguel debe grabar: escribe su guion en guiones/<fecha>-<tema>.md (6 escenas: título, visual, voz).
+
+## Voz de los reels
+- Voz oficial (desde R06): **Kokoro**, voz `ef_dora`, local y gratis. Referencia antigua: voces/voz-referencia-r02.mp3 (Marta, Inworld).
+- Generarla en la Terminal del Mac (no en la nube, Hugging Face está bloqueado allí): frases de cada escena, una por línea, en voces/<id>/textos.txt y luego
+  `bash voces/generar-voz-kokoro.sh voces/<id>/textos.txt voces/<id> ef_dora` → crea 1.wav, 2.wav…
+  (Instalación única: `bash voces/instalar-kokoro.sh`.) Palabras técnicas: voces/pronunciacion.txt.
+- El vídeo (escenas animadas + voz + música de fondo de R05 al 12 %) lo monta Claude: cada escena dura 0,3 s + su frase + 0,55 s.
+- Descartadas: Daniela (Piper), Mónica, Paulina, la voz del R01.
