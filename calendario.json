@@ -143,10 +143,13 @@
       "fecha": "2026-12-08",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: Commit, rama y merge",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r07",
+      "nombre": "Reel 07 · Commit, rama y merge",
+      "publicar": "auto",
+      "archivo": "videos/r07-commit-rama-merge.mp4",
+      "caption": "Commit, rama, merge… ¿Git te suena a chino? 🤯\n\nCommit = guardar partida.\nRama = camino paralelo para probar sin miedo.\nMerge = juntar tu rama con la principal.\n\n💾 Guárdalo\n💬 ¿Cuál te costó más entender?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #git #github #controldeversiones #desarrolloweb",
+      "portada": "portadas/portada-r07.png"
     },
     {
       "fecha": "2026-12-10",
@@ -347,6 +350,39 @@
       "caption": "¿npm run dev o npm run build? 🤔\n\ndev = cocina de prueba: servidor local y cambios al instante mientras programas.\nbuild = plato empaquetado: código optimizado en una carpeta lista para producción.\n\nAmbos salen de \"scripts\" en tu package.json.\n\n💾 Guárdalo\n💬 ¿Alguna vez subiste el modo dev a producción?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #npm #nodejs #javascript #desarrolloweb",
       "portada": "portadas/portada-r05.png",
       "publicar": "auto"
+    },
+    {
+      "fecha": "2027-01-21",
+      "hora": "14:00",
+      "formato": "carousel",
+      "estado": "pendiente",
+      "id": "c10",
+      "nombre": "Carrusel C10 · MCP vs API",
+      "archivo": "out/c10/",
+      "caption_archivo": "out/c10/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-02-06",
+      "hora": "11:00",
+      "formato": "static",
+      "estado": "pendiente",
+      "id": "e08",
+      "nombre": "Post E08 · Glosario: API vs SDK",
+      "archivo": "out/e08/",
+      "caption_archivo": "out/e08/caption.txt",
+      "publicar": "auto"
+    },
+    {
+      "fecha": "2027-02-13",
+      "hora": "11:00",
+      "formato": "story",
+      "estado": "pendiente",
+      "id": "s05",
+      "nombre": "Historia S05 · Quiz: ¿:latest en producción?",
+      "archivo": "out/s05/",
+      "caption_archivo": "out/s05/caption.txt",
+      "publicar": "manual"
     }
   ],
   "publicacion_automatica": "Las piezas con estado 'pendiente' se publican solas a su hora (11:00, 14:00 o 19:00) vía Windsor, leyendo este archivo desde GitHub. Solo se publica lo que esté subido con git push. Las historias se publican a mano (el quiz no se puede añadir automáticamente)."

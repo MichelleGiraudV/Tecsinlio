@@ -2,10 +2,10 @@
 
 ## Prioridad 1 (van primero)
 - npm run build vs npm run dev — reel — "dev = cocina de prueba, build = plato empaquetado para servir" (hecho: r05)
-- MCP vs API — carrusel — "API = un enchufe; MCP = un enchufe universal para que la IA use herramientas"
+- MCP vs API — carrusel — "API = un enchufe; MCP = un enchufe universal para que la IA use herramientas" (hecho: c10)
 - Kubernetes (muy for dummies) — reel — "Docker = un contenedor; Kubernetes = el capitán del puerto que los organiza"
 - WebSockets — carrusel — "HTTP = mandar cartas; WebSocket = llamada telefónica abierta"
-- API vs SDK — estático — "API = el menú; SDK = el kit con utensilios para pedir más fácil"
+- API vs SDK — estático — "API = el menú; SDK = el kit con utensilios para pedir más fácil" (hecho: e08)
 - NotebookLM — reel — "tu cuaderno con IA que solo responde con TUS documentos"
 
 ## Pendientes
@@ -21,7 +21,7 @@
 
 ## Docker
 - Docker vs máquina virtual: en qué se diferencian
-- Por qué no usar la etiqueta :latest en producción
+- Por qué no usar la etiqueta :latest en producción (hecho: s05)
 - docker logs y docker exec: cómo mirar dentro de un contenedor
 - Healthchecks: cómo sabe Docker que tu app está viva
 

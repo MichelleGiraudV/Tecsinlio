@@ -1,0 +1,29 @@
+{
+  "id": "e08",
+  "name": "Glosario: API vs SDK",
+  "format": "static",
+  "tag": "GLOSARIO",
+  "week": 12,
+  "status": "pendiente",
+  "notes": "Revisado: `curl https://api.github.com/users/octocat` funciona sin token. Octokit es el SDK oficial de GitHub para JavaScript (paquete npm `octokit`); `octokit.rest.users.getByUsername({ username })` es un método real que llama a ese mismo endpoint (requiere crear antes `const octokit = new Octokit()`, se explica en el caption). Definición ≤90 caracteres. Enlaza con C10 (MCP vs API).",
+  "caption": "API vs SDK: el menú y los cubiertos 🍽️\n\nLa API es el menú: lo que puedes pedir y cómo pedirlo.\nEl SDK es un kit con utensilios (funciones ya hechas) para pedir más fácil desde tu lenguaje.\n\nEjemplo: Octokit es el SDK de GitHub para JavaScript (npm install octokit).\n\n💾 Guárdalo\n💬 ¿Qué SDK usas más?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#api",
+    "#sdk",
+    "#javascript",
+    "#github"
+  ],
+  "slides": [
+    {
+      "type": "glossary",
+      "term": "API vs SDK",
+      "definition": "API = el menú del restaurante. SDK = el kit con utensilios para pedir más fácil.",
+      "example": "# API: pides tú, a mano\ncurl https://api.github.com/users/octocat\n\n# SDK (Octokit): una función lo hace\noctokit.rest.users.getByUsername({\n  username: \"octocat\" })"
+    }
+  ]
+}

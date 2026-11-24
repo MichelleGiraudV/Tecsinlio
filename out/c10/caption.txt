@@ -1,0 +1,10 @@
+¿API o MCP? No son lo mismo 🔌
+
+Una API es el enchufe de UN servicio. MCP es un enchufe universal para que la IA use muchas herramientas de la misma forma.
+
+Y no compiten: un servidor MCP suele usar APIs por dentro.
+
+💾 Guárdalo
+💬 ¿Qué herramienta conectarías a tu IA?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #mcp #api #inteligenciaartificial #ia

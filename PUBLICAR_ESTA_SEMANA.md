@@ -1,82 +1,68 @@
 # Publicar: próximos 7 días
 
-Generado el 16/11/2026. Programa cada pieza en Instagram (Opciones avanzadas → Programar) y cambia su "estado" a "programado" en calendario.json.
+Generado el 23/11/2026. Programa cada pieza en Instagram (Opciones avanzadas → Programar) y cambia su "estado" a "programado" en calendario.json.
 
-## 🎬 Martes 17/11 · 19:00 — Reel 02 · Dockerfile
+## 🎬 Martes 24/11 · 19:00 — Reel 03 · CI/CD
 
 - Formato: reel
-- Archivo: `videos/r02-dockerfile.mp4`
-- Portada del reel: `portadas/portada-r02.png` (Editar portada → Añadir de la galería)
+- Archivo: `videos/r03-ci-cd.mp4`
+- Portada del reel: `portadas/portada-r03.png` (Editar portada → Añadir de la galería)
 
 Caption:
 
 ```
-¿Cómo se crea una imagen de Docker? Con una receta: el Dockerfile 👨‍🍳
+Cambias código… ¿y ahora qué? 🤔
 
-1️⃣ FROM → eliges la base
-2️⃣ COPY → copias tus archivos
-3️⃣ RUN → ejecutas lo que hace falta al construir
-4️⃣ CMD → dices cómo arranca la app
+CI: cada cambio se construye y se prueba solo.
+CD (entrega): queda listo para desplegar.
+CD (despliegue): sale a producción automáticamente.
 
-Luego: docker build crea la imagen y docker run arranca el contenedor.
+CI comprueba. CD lleva más allá.
 
-Receta → Imagen → Contenedor. Sin lío.
+💾 Guárdalo
+💬 ¿En tu equipo despliegan a mano o automático?
 
-💾 Guárdalo para tu próximo proyecto
-
-#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #dockerfile #devops #desarrolloweb
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #cicd #devops #githubactions #automatizacion
 ```
 
-## 🖼️ Miércoles 18/11 · 14:00 — Carrusel C01 · Mapa: de tu código a producción
+## 🖼️ Jueves 26/11 · 14:00 — Carrusel C06 · Anatomía de un workflow YAML
 
 - Formato: carousel
-- Archivo: `out/c01/` (todas las imágenes, en orden)
+- Archivo: `out/c06/` (todas las imágenes, en orden)
 
 Caption:
 
 ```
-¿Cómo llega tu código de tu portátil a internet? 🗺️
+Lee cualquier workflow de GitHub Actions 👀
 
-Código → Git → CI → Docker → Registry → Cloud
+name → cómo se llama
+on → cuándo se lanza
+jobs → qué trabajos hay
+runs-on → en qué máquina
+steps → los pasos, en orden
 
-6 pasos, y cada uno tendrá su reel en la cuenta.
+Cuándo. Qué. Dónde.
 
-💾 Guárdalo como mapa
-💬 ¿Qué paso te cuesta más?
+💾 Guárdalo para tu próximo pipeline
 
-#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #devops #cicd #docker #cloud
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #cicd #devops #yaml
 ```
 
-## 🖼️ Jueves 19/11 · 14:00 — Carrusel C02 · 7 comandos de Docker que usarás siempre
+## 📌 Sábado 28/11 · 11:00 — Post E04 · Glosario: Pipeline
 
-- Formato: carousel
-- Archivo: `out/c02/` (todas las imágenes, en orden)
+- Formato: static
+- Archivo: `out/e04/`
 
 Caption:
 
 ```
-Docker en 7 comandos 🐳
+Glosario Tec Sin Lío: Pipeline 🔧
 
-build → crea la imagen
-run → arranca un contenedor
-ps / images → qué tienes
-logs → qué pasa dentro
-stop / exec → páralo o entra
+Una cadena de pasos automáticos que sigue tu código: build → test → deploy.
 
-Con estos te defiendes el 90 % del tiempo.
+Como una cadena de montaje: si un paso falla, se para todo.
 
-💾 Guárdalo para tu próxima terminal
+💾 Guárdalo
 
-#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #docker #contenedores #devops
-```
-
-## ⭕ Sábado 21/11 · 11:00 — Historia S01 · Quiz: ¿FROM o CMD?
-
-- Formato: story
-- Archivo: `out/s01/`
-
-Caption:
-
-```
-(Historia) Añade el sticker de quiz encima de las opciones.
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #cicd #devops #githubactions
 ```

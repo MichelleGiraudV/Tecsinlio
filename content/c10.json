@@ -1,0 +1,102 @@
+{
+  "id": "c10",
+  "name": "MCP vs API",
+  "format": "carousel",
+  "tag": "IA",
+  "week": 11,
+  "status": "pendiente",
+  "notes": "Revisado: MCP = Model Context Protocol, estándar abierto (publicado por Anthropic en nov. 2024) para conectar apps de IA (clientes) con herramientas y datos a través de servidores MCP. `curl https://api.github.com/users/octocat` es la API pública de GitHub y responde sin token. `claude mcp add <nombre> -- <comando>` es la sintaxis de Claude Code para añadir un servidor por stdio; @modelcontextprotocol/server-filesystem es el servidor oficial de archivos y recibe como argumento la carpeta permitida (requiere Node/npx y Claude Code instalados; lo dice el texto). Títulos ≤40 y textos ≤90 caracteres. Enlaza con el reel '¿Qué es una API REST?' (12 ene) y prepara E08 (API vs SDK).",
+  "caption": "¿API o MCP? No son lo mismo 🔌\n\nUna API es el enchufe de UN servicio. MCP es un enchufe universal para que la IA use muchas herramientas de la misma forma.\n\nY no compiten: un servidor MCP suele usar APIs por dentro.\n\n💾 Guárdalo\n💬 ¿Qué herramienta conectarías a tu IA?",
+  "hashtags": [
+    "#tecsinlio",
+    "#programacion",
+    "#aprendeaprogramar",
+    "#ingenieriadesoftware",
+    "#tecnologia",
+    "#mcp",
+    "#api",
+    "#inteligenciaartificial",
+    "#ia"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "IA + herramientas",
+      "title": "MCP vs API",
+      "box": "🔌 vs 🌍🔌",
+      "text": "Dos formas de conectar programas. Una pensada para la IA."
+    },
+    {
+      "type": "point",
+      "kicker": "01 / La API",
+      "title": "API: el enchufe de un servicio",
+      "code": "curl \\\n  https://api.github.com/users/octocat",
+      "text": "Cada servicio tiene el suyo: sus rutas, sus datos, sus reglas."
+    },
+    {
+      "type": "point",
+      "kicker": "02 / El problema",
+      "title": "La IA necesita mil adaptadores",
+      "box": "10 APIs = 10 conexiones",
+      "text": "Para que una IA use cada API, alguien tiene que programar cada conexión."
+    },
+    {
+      "type": "point",
+      "kicker": "03 / MCP",
+      "title": "MCP: el enchufe universal",
+      "box": "Model Context Protocol",
+      "text": "Un estándar abierto para que la IA use herramientas y datos."
+    },
+    {
+      "type": "flow",
+      "kicker": "04 / Cómo funciona",
+      "title": "Quién habla con quién",
+      "steps": [
+        {
+          "k": "App de IA",
+          "v": "el cliente: Claude, tu editor…"
+        },
+        {
+          "k": "Servidor MCP",
+          "v": "ofrece herramientas a la IA"
+        },
+        {
+          "k": "API o datos",
+          "v": "GitHub, tu base de datos, archivos…"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "kicker": "05 / Diferencias",
+      "title": "API vs MCP",
+      "items": [
+        {
+          "k": "API",
+          "v": "para programas: tú escribes el código"
+        },
+        {
+          "k": "MCP",
+          "v": "para la IA: descubre sola qué puede usar"
+        },
+        {
+          "k": "Juntos",
+          "v": "un servidor MCP suele usar APIs por dentro"
+        }
+      ]
+    },
+    {
+      "type": "point",
+      "kicker": "06 / Pruébalo",
+      "title": "Dale a la IA una carpeta",
+      "code": "claude mcp add archivos -- \\\nnpx -y \\\n@modelcontextprotocol/server-filesystem \\\n~/Documents",
+      "text": "Con Claude Code: ahora la IA puede leer esa carpeta."
+    },
+    {
+      "type": "close",
+      "title": "Un enchufe universal.",
+      "text": "MCP vs API, sin lío.",
+      "cta": "Guárdalo y comenta qué conectarías"
+    }
+  ]
+}

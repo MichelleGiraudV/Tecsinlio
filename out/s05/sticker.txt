@@ -1,0 +1,9 @@
+{
+  "type": "quiz",
+  "question": "¿Qué etiqueta usas en producción?",
+  "options": [
+    "mi-app:latest",
+    "mi-app:1.4.2"
+  ],
+  "correct": "mi-app:1.4.2"
+}

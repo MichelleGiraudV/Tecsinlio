@@ -1,0 +1,1 @@
+(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: mi-app:1.4.2. `latest` es solo la etiqueta por defecto: puede cambiar con cada push y no sabes qué versión está corriendo ni a cuál volver si algo falla.

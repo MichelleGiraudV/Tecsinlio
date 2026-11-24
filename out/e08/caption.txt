@@ -1,0 +1,11 @@
+API vs SDK: el menú y los cubiertos 🍽️
+
+La API es el menú: lo que puedes pedir y cómo pedirlo.
+El SDK es un kit con utensilios (funciones ya hechas) para pedir más fácil desde tu lenguaje.
+
+Ejemplo: Octokit es el SDK de GitHub para JavaScript (npm install octokit).
+
+💾 Guárdalo
+💬 ¿Qué SDK usas más?
+
+#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #api #sdk #javascript #github

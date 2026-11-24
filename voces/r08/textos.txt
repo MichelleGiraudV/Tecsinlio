@@ -1,0 +1,6 @@
+Terminaste tu rama. ¿La juntas sin más con main? Mejor pide permiso primero: eso es un pull request.
+Un pull request es como entregar un trabajo para que lo corrijan antes de publicarlo.
+Subes tu rama a GitHub y abres el pull request: aquí están mis cambios, ¿los revisas?
+Tu equipo lee el código, deja comentarios, y los tests se ejecutan solos.
+Si todo está bien, lo aprueban y se hace el merge con main.
+Pull request: propones, revisan, juntas. Guárdalo y sígueme para más tec sin lío.

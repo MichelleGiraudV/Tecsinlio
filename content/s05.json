@@ -1,0 +1,29 @@
+{
+  "id": "s05",
+  "name": "Quiz: ¿:latest en producción?",
+  "format": "story",
+  "tag": "QUIZ",
+  "week": 13,
+  "status": "pendiente",
+  "notes": "Revisado: si no pones etiqueta, Docker usa `latest` por defecto; no significa 'la más nueva' y puede apuntar a otra imagen tras cada push, así que no sabes qué versión corre ni puedes volver atrás con seguridad. Por eso en producción se usa una versión fija (p. ej. `mi-app:1.4.2`). Pregunta ≤90 caracteres. Enlaza con E02 (Registry) y C09 (multi-stage).",
+  "caption": "(Historia) Añade el sticker de quiz encima de las opciones. Respuesta: mi-app:1.4.2. `latest` es solo la etiqueta por defecto: puede cambiar con cada push y no sabes qué versión está corriendo ni a cuál volver si algo falla.",
+  "story_sticker": {
+    "type": "quiz",
+    "question": "¿Qué etiqueta usas en producción?",
+    "options": [
+      "mi-app:latest",
+      "mi-app:1.4.2"
+    ],
+    "correct": "mi-app:1.4.2"
+  },
+  "slides": [
+    {
+      "type": "quiz",
+      "question": "Vas a desplegar tu imagen Docker a producción. ¿Qué etiqueta usas?",
+      "options": [
+        "mi-app:latest",
+        "mi-app:1.4.2"
+      ]
+    }
+  ]
+}
