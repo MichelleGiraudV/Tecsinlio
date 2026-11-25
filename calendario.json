@@ -211,10 +211,13 @@
       "fecha": "2026-12-22",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: GitHub Actions",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r09",
+      "nombre": "Reel 09 · GitHub Actions",
+      "publicar": "auto",
+      "archivo": "videos/r09-github-actions.mp4",
+      "caption": "¿Quién revisa tu código cuando haces push? 🤖\n\nGitHub Actions = un ayudante que vive en tu repo.\n📁 .github/workflows/tests.yml\n⏰ on → cuándo arranca\n🛠️ steps → qué hace\n✅ check verde = todo bien · ❌ cruz roja = algo falla\n\n💾 Guárdalo\n💬 ¿Qué automatizas tú con Actions?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #githubactions #github #cicd #devops",
+      "portada": "portadas/portada-r09.png"
     },
     {
       "fecha": "2026-12-26",

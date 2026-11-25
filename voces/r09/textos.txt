@@ -1,0 +1,6 @@
+Subes código a GitHub. ¿Quién comprueba que no has roto nada? Un robot: GitHub Actions.
+GitHub Actions es como un ayudante que vive en tu repositorio: cuando pasa algo, hace las tareas por ti.
+Le das las órdenes con un archivo YAML, dentro de la carpeta punto github, workflows.
+On dice cuándo arranca, por ejemplo, con cada push. Y los steps dicen qué hace: instalar y pasar los tests.
+Haces push, GitHub enciende una máquina, ejecuta los pasos y te pone un check verde… o una cruz roja si algo falla.
+Haces push, el robot trabaja, tú ves el check. Guárdalo y sígueme para más tec sin lío.
