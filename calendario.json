@@ -177,10 +177,13 @@
       "fecha": "2026-12-15",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: ¿Qué es una Pull Request?",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r08",
+      "nombre": "Reel 08 · Pull request",
+      "publicar": "auto",
+      "archivo": "videos/r08-pull-request.mp4",
+      "caption": "¿Haces merge directo a main? 😬\n\nUn pull request es entregar tu trabajo para que lo revisen antes de publicarlo.\nSubes tu rama → abres el PR → revisan y pasan los tests → merge.\n\n💾 Guárdalo\n💬 ¿Cuántos approves pide tu equipo?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #git #github #pullrequest #codereview",
+      "portada": "portadas/portada-r08.png"
     },
     {
       "fecha": "2026-12-17",

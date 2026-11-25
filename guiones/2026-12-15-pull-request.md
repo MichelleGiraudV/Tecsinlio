@@ -1,4 +1,4 @@
-# Reel 08 · Pull Request (martes 15/12 · 19:00)
+# Reel 08 · Pull Request (hecho: r08, voz Marta · Inworld)
 
 Duración objetivo: 35-40 s · Tag: GIT · Sigue al Reel 07 (commit, rama y merge).
 

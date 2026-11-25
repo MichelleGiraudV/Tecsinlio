@@ -51,9 +51,10 @@ Si algo queda dudoso, escríbelo en "notes" empezando por "⚠️".
 - Los huecos "por producir" son reels que Miguel debe grabar: escribe su guion en guiones/<fecha>-<tema>.md (6 escenas: título, visual, voz).
 
 ## Voz de los reels
-- Voz oficial (desde R06): **Kokoro**, voz `ef_dora`, local y gratis. Referencia antigua: voces/voz-referencia-r02.mp3 (Marta, Inworld).
-- Generarla en la Terminal del Mac (no en la nube, Hugging Face está bloqueado allí): frases de cada escena, una por línea, en voces/<id>/textos.txt y luego
-  `bash voces/generar-voz-kokoro.sh voces/<id>/textos.txt voces/<id> ef_dora` → crea 1.wav, 2.wav…
-  (Instalación única: `bash voces/instalar-kokoro.sh`.) Palabras técnicas: voces/pronunciacion.txt.
-- El vídeo (escenas animadas + voz + música de fondo de R05 al 12 %) lo monta Claude: cada escena dura 0,3 s + su frase + 0,55 s.
+- Voz oficial (desde R08, 25 nov 2026): **Marta, de Inworld TTS**. Referencia: voces/voz-referencia-r02.mp3.
+- Generarla en la Terminal del Mac (la clave INWORLD_API_KEY está en ~/.zshrc de Miguel; NUNCA en el repo, que es público): frases de cada escena, una por línea, en voces/<id>/textos.txt y luego
+  `python3 voces/inworld.py voces/<id>/textos.txt voces/<id>` → crea 1.mp3, 2.mp3…
+- Palabras técnicas: escribirlas en textos.txt tal cual (Marta las lee bien); voces/pronunciacion.txt solo aplica a Kokoro.
+- El vídeo (escenas animadas + voz + música de fondo de R05 al 12 %) lo monta Claude: cada escena dura 0,3 s + su frase + 0,35 s (la última, +1,1 s).
+- Plan B (gratis y local, si Inworld deja de funcionar): Kokoro `ef_dora` → `bash voces/generar-voz-kokoro.sh voces/<id>/textos.txt voces/<id> ef_dora`.
 - Descartadas: Daniela (Piper), Mónica, Paulina, la voz del R01.

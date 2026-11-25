@@ -1,4 +1,4 @@
-# Reel 07 · Commit, rama y merge (hecho: r07, voz Kokoro ef_dora)
+# Reel 07 · Commit, rama y merge (hecho: r07, voz Marta · Inworld)
 
 Duración objetivo: 35-40 s · Tag: GIT · Primer reel de Git (después del bloque Docker).
 
