@@ -234,10 +234,13 @@
       "fecha": "2026-12-29",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: Del commit al deploy en Cloud Run",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r10",
+      "nombre": "Reel 10 · Del commit a Cloud Run",
+      "publicar": "auto",
+      "archivo": "videos/r10-commit-a-cloud-run.mp4",
+      "caption": "Haces commit… ¿y cómo llega tu app a internet? 🚀\n\n1️⃣ GitHub Actions pasa los tests\n2️⃣ Construye la imagen Docker → Artifact Registry\n3️⃣ Cloud Run la despliega y te da una URL\n⚡ 0 visitas = 0 copias encendidas\n\n💾 Guárdalo\n💬 ¿Dónde despliegas tú?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #cloudrun #googlecloud #cicd #docker",
+      "portada": "portadas/portada-r10.png"
     },
     {
       "fecha": "2026-12-31",
@@ -265,10 +268,13 @@
       "fecha": "2027-01-05",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: ¿Qué es serverless?",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r11",
+      "nombre": "Reel 11 · ¿Qué es serverless?",
+      "publicar": "auto",
+      "archivo": "videos/r11-serverless.mp4",
+      "caption": "Serverless = sin servidor… ¿seguro? 🤔\n\nSí hay servidores, pero no son tu problema:\n🚕 Como un taxi: lo usas y pagas el viaje\n⚡ Escala solo (de 0 a miles)\n❄️ Ojo con el cold start\n\n💾 Guárdalo\n💬 ¿Usas Lambda, Cloud Run o algo más?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #serverless #cloud #cloudrun #aws",
+      "portada": "portadas/portada-r11.png"
     },
     {
       "fecha": "2027-01-07",
@@ -296,10 +302,13 @@
       "fecha": "2027-01-12",
       "hora": "19:00",
       "formato": "reel",
-      "estado": "por producir",
-      "id": null,
-      "nombre": "POR PRODUCIR: ¿Qué es una API REST?",
-      "publicar": "auto"
+      "estado": "pendiente",
+      "id": "r12",
+      "nombre": "Reel 12 · ¿Qué es una API REST?",
+      "publicar": "auto",
+      "archivo": "videos/r12-api-rest.mp4",
+      "caption": "¿Qué es una API REST? 🍽️\n\nAPI = el camarero entre tu app y el servidor.\n📍 Recurso → /usuarios\n🔧 Verbo → GET, POST, PUT, DELETE\n📦 Respuesta → JSON + código (200 ✅ · 404 ❌)\n\n💾 Guárdalo\n💬 ¿Qué API usas más?\n\n#tecsinlio #programacion #aprendeaprogramar #ingenieriadesoftware #tecnologia #api #apirest #backend #desarrolloweb",
+      "portada": "portadas/portada-r12.png"
     },
     {
       "fecha": "2027-01-16",

@@ -1,0 +1,6 @@
+Haces un commit… y unos minutos después tu app está en internet. ¿Cómo? Vamos paso a paso.
+Primero, GitHub Actions ve tu push y pasa los tests. Si algo falla, se para aquí.
+Después construye una imagen de Docker con tu app y la guarda en Artifact Registry, el almacén de imágenes.
+Luego le dice a Cloud Run: despliega esta imagen. Cloud Run la arranca y te da una URL pública.
+Y lo mejor: si nadie la usa, se apaga sola. Si llega mucha gente, crea más copias automáticamente.
+Commit, tests, imagen, Cloud Run. Guárdalo y sígueme para más tec sin lío.

@@ -1,0 +1,6 @@
+Cada vez que abres una app, por detrás está hablando con una API. ¿Qué es una API REST?
+Una API es como el camarero de un restaurante: tú pides, él va a la cocina y te trae la respuesta.
+En REST, todo son recursos, y cada uno tiene su dirección. Por ejemplo, barra usuarios.
+Y usas verbos: GET para leer, POST para crear, PUT para cambiar y DELETE para borrar.
+La respuesta llega en JSON, con un código: doscientos si todo va bien, cuatrocientos cuatro si no existe.
+Recurso, verbo y respuesta. Guárdalo y sígueme para más tec sin lío.

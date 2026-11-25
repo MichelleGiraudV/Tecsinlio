@@ -1,0 +1,6 @@
+Serverless significa sin servidor… pero sí hay servidores. Entonces, ¿qué es?
+Es como coger un taxi en vez de comprarte un coche: lo usas cuando lo necesitas y pagas solo el viaje.
+Tú subes tu código. El proveedor se encarga de las máquinas, las actualizaciones y de escalar.
+Si no hay peticiones, no hay nada encendido. Si llegan mil, arranca más copias él solo.
+Ojo: la primera petición puede tardar un poco más; se llama cold start. Ejemplos: Cloud Run o AWS Lambda.
+Tú pones el código, ellos ponen los servidores. Guárdalo y sígueme para más tec sin lío.
